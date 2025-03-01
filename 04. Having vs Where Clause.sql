@@ -20,5 +20,5 @@ GROUP BY occupation
 HAVING AVG(salary) > 75000
 ;
 
-# must use HAVING Caluse when filtering one aggregate functions
+# must use HAVING Caluse when filtering on aggregate functions
 # WHERE Clause is more common but cannot be used in these instances ^
